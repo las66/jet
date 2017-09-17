@@ -34,6 +34,6 @@ public class Main {
             System.out.println("Неверный ввод");
             System.exit(0);
         }
-        System.out.println(answer);
+        System.out.println("Раскодированная строка:\n" + answer);
     }
 }
