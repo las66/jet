@@ -50,7 +50,7 @@ public class Main {
         return n;
     }
 
-    private static List<Integer> strToArr(String strNumbers) throws NumberFormatException {
+    public static List<Integer> strToArr(String strNumbers) throws NumberFormatException {
         if ((strNumbers.length() == 0) || (strNumbers.charAt(strNumbers.length() - 1) == '-'))
             throw new NumberFormatException("Ошибка ввода");
         List<Integer> numbers = new ArrayList<>();
